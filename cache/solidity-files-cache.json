@@ -74,8 +74,8 @@
       ]
     },
     "/Users/yangong/work/blockchain/hello-ethereum/contracts/NoahToken.sol": {
-      "lastModificationDate": 1638700121808,
-      "contentHash": "413c0a48f9896aa532eb6141f60423dc",
+      "lastModificationDate": 1638702591930,
+      "contentHash": "cfceda0a43713d4a7d7361790570971e",
       "sourceName": "contracts/NoahToken.sol",
       "solcConfig": {
         "version": "0.8.9",

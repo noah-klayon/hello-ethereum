@@ -5,7 +5,9 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 import "hardhat/console.sol";
 
 contract NoahToken is ERC20 {
-    constructor(uint256 initialSupply) ERC20("Noah Token", "NAH") {
+    uint256 public initialSupply = 1000000;
+
+    constructor() ERC20("Noah Token", "NAH") {
         _mint(msg.sender, initialSupply);
         console.log("Token initialized. initialSupply=%s", initialSupply);
     }

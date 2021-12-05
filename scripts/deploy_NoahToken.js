@@ -5,7 +5,7 @@ async function main() {
     console.log("Account balance:", (await deployer.getBalance()).toString());
   
     const Token = await ethers.getContractFactory("NoahToken");
-    const token = await Token.deploy(1000);
+    const token = await Token.deploy();
   
     console.log("Deployed NoahToken contract address:", token.address);
   }

@@ -12,7 +12,7 @@ describe("NoahToken contract", function () {
     Token = await ethers.getContractFactory("NoahToken");
     [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
 
-    hardhatToken = await Token.deploy(1000);
+    hardhatToken = await Token.deploy();
   });
 
   describe("Deployment", function () {
